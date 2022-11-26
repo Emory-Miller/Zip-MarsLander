@@ -48,10 +48,9 @@ public class Vehicle {
                 Flying = SUCCESS;
             }
         } else {
-            if (this.Altitude > 0) {
-                s = emptyfuel;
-                Flying = EMPTYFUEL;
-            } }
+            s = emptyfuel;
+            Flying = EMPTYFUEL;
+        }
         return s;
     }
 
@@ -70,7 +69,7 @@ public class Vehicle {
         PrevAltitude = Altitude;
         Velocity = computeDeltaV();
         Altitude -= Velocity;
-        Fuel -= burnAmount;
+        Fuel -= Burn;
     }
 
     public boolean stillFlying() {
