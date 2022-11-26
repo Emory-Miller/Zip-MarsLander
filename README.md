@@ -13,7 +13,7 @@ You must land at a speed of 2 m/s or 1 m/s. Good Luck!_
 Your project is to do two things.
 
 - build the code for the Vehicle class.
-  - there is quite  bit of pseudocode in the Vehicle and Simulation classes
+  - there is quite a bit of pseudocode in the Vehicle and Simulation classes
 - design a new, replacement landing computer
   - You need to write a method that allows the lander to land safely (after you can do it manually)
 
